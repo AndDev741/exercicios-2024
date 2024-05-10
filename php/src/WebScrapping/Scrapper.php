@@ -25,7 +25,32 @@ class Scrapper {
 
     $xPath = new \DOMXPath($dom);
     $papers = $xPath->query($papersClass);
-    $i = 0;
+    
+    foreach($papers as $paper){
+       //Getting the data of title, type and id
+       $title = $xPath->query($titleClass, $paper)->item($i)->nodeValue;
+       $type = $xPath->query($typeClass, $paper)->item($i)->nodeValue;
+       $id = intval($xPath->query($idClass, $paper)->item($i)->nodeValue);
+   
+       //Getting the authors and his institutes
+       $authorsNodes = $xPath->query($authorClass, $paper);
+       $allAuthors = [];
+       foreach($authorsNodes as $authorNode){//div
+         $authors = [];
+         foreach($authorNode->childNodes as $item){//span
+           if($item->nodeName === 'span'){
+             $author = $item->nodeValue;
+             $institute = $item->getAttribute('title');
+             $authors[] = new Person($author, $institute);
+           }
+         }
+         $allAuthors[] = $authors;
+       }
+       //instantiating the object of the paper
+       $paperObject = new Paper($id, $title, $type, $allAuthors[$i]);
+       $papersList[] = $paperObject;
+       $i++;
+    }
 
     return $papersList;
   }
