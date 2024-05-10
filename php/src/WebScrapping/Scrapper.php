@@ -23,9 +23,11 @@ class Scrapper {
 
     $papersList = [];
 
-    
+    $xPath = new \DOMXPath($dom);
+    $papers = $xPath->query($papersClass);
+    $i = 0;
 
-    return
+    return $papersList;
   }
 
 }
