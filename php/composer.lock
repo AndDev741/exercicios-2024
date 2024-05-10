@@ -142,12 +142,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/openspout/openspout.git",
-                "reference": "933d6dd79510c16b0a29c8f1cd70aa9aa8028351"
+                "reference": "912b2286bdea975b3b9f6b1a1021cc0adaade13e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openspout/openspout/zipball/933d6dd79510c16b0a29c8f1cd70aa9aa8028351",
-                "reference": "933d6dd79510c16b0a29c8f1cd70aa9aa8028351",
+                "url": "https://api.github.com/repos/openspout/openspout/zipball/912b2286bdea975b3b9f6b1a1021cc0adaade13e",
+                "reference": "912b2286bdea975b3b9f6b1a1021cc0adaade13e",
                 "shasum": ""
             },
             "require": {
@@ -161,7 +161,7 @@
             },
             "require-dev": {
                 "ext-zlib": "*",
-                "friendsofphp/php-cs-fixer": "^3.54.0",
+                "friendsofphp/php-cs-fixer": "^3.55.0",
                 "infection/infection": "^0.28.1",
                 "phpbench/phpbench": "^1.2.15",
                 "phpstan/phpstan": "^1.10.67",
@@ -216,7 +216,7 @@
             ],
             "support": {
                 "issues": "https://github.com/openspout/openspout/issues",
-                "source": "https://github.com/openspout/openspout/tree/4.x"
+                "source": "https://github.com/openspout/openspout/tree/v4.23.1"
             },
             "funding": [
                 {
@@ -228,20 +228,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-04-24T09:42:48+00:00"
+            "time": "2024-05-06T07:22:51+00:00"
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "1.28.0",
+            "version": "1.29.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "cd06d6b1a1b3c75b0b83f97577869fd85a3cd4fb"
+                "reference": "536889f2b340489d328f5ffb7b02bb6b183ddedc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/cd06d6b1a1b3c75b0b83f97577869fd85a3cd4fb",
-                "reference": "cd06d6b1a1b3c75b0b83f97577869fd85a3cd4fb",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/536889f2b340489d328f5ffb7b02bb6b183ddedc",
+                "reference": "536889f2b340489d328f5ffb7b02bb6b183ddedc",
                 "shasum": ""
             },
             "require": {
@@ -273,9 +273,9 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.28.0"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.29.0"
             },
-            "time": "2024-04-03T18:51:33+00:00"
+            "time": "2024-05-06T12:04:23+00:00"
         },
         {
             "name": "psalm/phar",
@@ -443,12 +443,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer.git",
-                "reference": "7aceb913e56be7eba19fef66b536d0bce4c63718"
+                "reference": "4fd52f75c8f29114423e9a379bf86fa894750bc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/7aceb913e56be7eba19fef66b536d0bce4c63718",
-                "reference": "7aceb913e56be7eba19fef66b536d0bce4c63718",
+                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/4fd52f75c8f29114423e9a379bf86fa894750bc3",
+                "reference": "4fd52f75c8f29114423e9a379bf86fa894750bc3",
                 "shasum": ""
             },
             "require": {
@@ -516,7 +516,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2024-04-29T20:15:19+00:00"
+            "time": "2024-05-06T04:13:19+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -524,12 +524,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "2c438b99bb2753c1628c1e6f523991edea5b03a4"
+                "reference": "0e0d29ce1f20deffb4ab1b016a7257c4f1e789a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/2c438b99bb2753c1628c1e6f523991edea5b03a4",
-                "reference": "2c438b99bb2753c1628c1e6f523991edea5b03a4",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/0e0d29ce1f20deffb4ab1b016a7257c4f1e789a1",
+                "reference": "0e0d29ce1f20deffb4ab1b016a7257c4f1e789a1",
                 "shasum": ""
             },
             "require": {
@@ -568,7 +568,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/main"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.5.0"
             },
             "funding": [
                 {
@@ -584,7 +584,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-01-02T14:07:37+00:00"
+            "time": "2024-04-18T09:32:20+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -1308,12 +1308,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "7a07c2f50ac63b039a9dcee132e8b61682d5dd68"
+                "reference": "ee21897209c37ae57271fe7aa583d39edb364e87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/7a07c2f50ac63b039a9dcee132e8b61682d5dd68",
-                "reference": "7a07c2f50ac63b039a9dcee132e8b61682d5dd68",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/ee21897209c37ae57271fe7aa583d39edb364e87",
+                "reference": "ee21897209c37ae57271fe7aa583d39edb364e87",
                 "shasum": ""
             },
             "require": {
@@ -1401,7 +1401,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-04-30T11:47:58+00:00"
+            "time": "2024-05-06T06:20:18+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -2387,5 +2387,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
