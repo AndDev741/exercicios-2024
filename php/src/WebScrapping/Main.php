@@ -29,11 +29,30 @@ class Main {
       new StringCell('Title', null),
       new StringCell('Type', null)
     ]);
-  for ($i = 1; $i <= 9; $i++) {
+    
+    for ($i = 1; $i <= 9; $i++) {
       $headerRow->addCell(new StringCell("Author $i", null));
       $headerRow->addCell(new StringCell("Author $i Institution", null));
   }
   $writer->addRow($headerRow);
+
+  //Writing the data
+  foreach($data as $paper){
+    $rowData = new Row([
+      new NumericCell($paper->id, null),
+      new StringCell($paper->title, null),
+      new StringCell($paper->type, null),
+    ]);
+
+    foreach($paper->authors as $author){
+      $rowData->addCell(new StringCell($author->name, null));
+      $rowData->addCell(new StringCell($author->institution, null));
+    }
+
+    $writer->addRow($rowData);
+  }
+
+  $writer->close();
   }
 
 }

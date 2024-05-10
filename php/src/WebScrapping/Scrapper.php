@@ -31,7 +31,7 @@ class Scrapper {
        $title = $xPath->query($titleClass, $paper)->item($i)->nodeValue;
        $type = $xPath->query($typeClass, $paper)->item($i)->nodeValue;
        $id = intval($xPath->query($idClass, $paper)->item($i)->nodeValue);
-   
+      
        //Getting the authors and his institutes
        $authorsNodes = $xPath->query($authorClass, $paper);
        $allAuthors = [];
