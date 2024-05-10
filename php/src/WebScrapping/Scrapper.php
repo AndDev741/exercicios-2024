@@ -25,7 +25,7 @@ class Scrapper {
 
     $xPath = new \DOMXPath($dom);
     $papers = $xPath->query($papersClass);
-    
+    $i = 0;
     foreach($papers as $paper){
        //Getting the data of title, type and id
        $title = $xPath->query($titleClass, $paper)->item($i)->nodeValue;
